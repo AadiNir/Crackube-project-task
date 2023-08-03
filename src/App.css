@@ -1,38 +1,380 @@
-.App {
-  text-align: center;
+body{
+  overflow-x: hidden;
+}
+/* NAVBAR */
+.Nav{
+  width: 1580px;
+height: 100px;
+flex-shrink: 0;
+padding-top: 30px;
+background-color: #202020;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Nav1{
+  float: right;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.searchim{
+  width: 32px;
+height: 32px;
+position: relative;
+left:45px;
+top:13px
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search{
+  width: 928px;
+height: 40px;
+background-color: #161717;
+border-radius: 34px;
+padding-left: 60px;
+color: white;
+}
+
+.ele1{
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  background-color: #161717;
+  border-radius: 50%;
+  margin-left: 18px;
+}
+.el1{
+  position: relative;
+  left:1050px;
+  bottom: 50px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.profilepic{
+  position: relative;
+  left:1500px;
+  bottom: 110px;
+
+
+}
+.txt1{
+  position: relative;
+  left:1400px;
+  bottom: 190px;
+}
+.b{
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+color: white;
+
+}
+.m{
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color:#828282;
+
+}
+
+/* SIDEBAR */
+
+
+
+
+
+
+
+
+
+.sidebar1{
+  width: 325px;
+height: 1200px;
+flex-shrink: 0;
+background-color: #202020;
+margin: 0px;
+display: inline-block;
+position: relative;
+bottom:130px
+}
+.titimg{
+  position: relative;
+  left:30px;
+  top:45px;
+}
+.tittxt{
+  font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: white;
+position: relative;
+
+left:80px;
+bottom:40px;
+}
+.optionst{
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #717579;
+  margin-left: 20px;
+}
+.optionst:hover{
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #2BC155;
+  margin-left: 20px;
+
+}
+.optionsimg{
+width: 24px;
+height: 24px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+padding-top: 17px;
+padding-left: 10px;
+
+
+}
+.optionsmain{
+  margin-left: 10px;
+  display:flex;
+}
+
+/*Home page*/
+.Homepage{
   color: white;
+  width: 1578px;
+  height: 2031px;
+  float:right;
+ 
+  background-color: #161717;
+}
+.Hometext{
+  font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.Homeinside{
+  padding-left: 30px;
+}
+.cbbox{
+  background-color: #369DC9;
+  width: 761px;
+height: 250px;
+flex-shrink: 0;
+border-radius: 12px;
+display:inline-block;
+
+}
+.cbbox p{
+  padding:30px;
+  font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
 
-.App-link {
-  color: #61dafb;
+.cbbox img{
+  position: relative;
+  left:630px;
+  bottom:90px;
+}
+.cbbox h1{
+  position: relative;
+  bottom:120px;
+  padding-left: 30px;
+  font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.ct1{
+  position: relative;
+  bottom:160px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.LatestTransaction{
+  float: right;
+  width: 740px;
+  height: 630px;
+flex-shrink: 0;
+border-radius: 12px;
+background-color: #202020;
+margin-right: 30px;
+}
+.p1{
+
+  padding: 30px;
+  font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.sq{
+  width: 19px;
+height: 19px;
+flex-shrink: 0;
+border-radius: 3px;
+border: 2px solid var(--grey-grey-4, #C4C4C4);
+}
+.LT1{
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 5px;
+}
+.Tlist{
+  display:flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+.Tlist p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+line-height: normal;
+  padding-left: 40px;
+}
+.ex{
+  margin-left:200px;
+  font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+line-height: normal;
+color:white
+
+}
+.ex2{
+  margin-left: 60px;
+  font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+line-height: normal;
+color:white
+}
+.headlist{
+  font-weight: bold;
+  padding-bottom: 30px;
+
+}
+.Tlistnew{
+  display:flex;
+
+
+}
+
+.bro{
+  width:200px
+}
+.exnew{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+line-height: normal;
+color:green;
+padding-left:40px;
+
+}
+.ex2new{
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+line-height: normal;
+color:green;
+width: 91px;
+height: 32px;
+flex-shrink: 0;
+border-radius: 7px;
+border: 1px solid var(--main-color-green-2, #2BC155);
+text-align: center;
+margin-left: 98px;
+}
+.exi{
+  margin-top: 0px;
+    margin-bottom: 0px;
+  width:300px;
+  font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+line-height: normal;
+padding-bottom: 40px;
+padding-left: 30px;
+
+}
+
+.paymentmain{
+  width: 740px;
+height: 340px;
+flex-shrink: 0;
+border-radius: 12px;
+background: var(--background-background-dark-2, #202020);
+/* shadow01 */
+box-shadow: 0px 6px 24px 0px rgba(53, 55, 81, 0.06);
+position: relative;
+bottom:120px;
+padding-left: 20px;
+padding-top: 20px;
+}
+
+.paymentmain p{
+  color: var(--main-color-white, #FFF);
+/* Heading/Heading 4 */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-bottom: 0px;
+
+
+}
+.sq1{
+  width: 19px;
+height: 19px;
+flex-shrink: 0;
+border-radius: 3px;
+border: 2px solid var(--grey-grey-4, #C4C4C4);
+
+}
+.duelist{
+  display: flex;
+  
+}
+.duels1{
+  padding-left:20px ;
+}
+.duels2{
+  padding-left:180px ;
+}
+.duels3{
+  padding-left: 60px;
+}
+.duels4{
+  padding-left: 60px;
 }
